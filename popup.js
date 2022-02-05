@@ -5,7 +5,7 @@ chrome.storage.sync.get("color", ({ color }) => {
 });
 
 // When the button is clicked, inject setPageBackgroundColor into current page
-changeColor.addEventListener("click", async () => {
+changeColor.addEventListener("change", async () => {
   let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
   chrome.scripting.executeScript({
