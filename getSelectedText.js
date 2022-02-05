@@ -7,3 +7,5 @@ function getSelectedText() {
     }
     return '';
 }
+
+export {getSelectedText};
