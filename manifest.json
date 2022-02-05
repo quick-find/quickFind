@@ -1,0 +1,9 @@
+{
+  "name": "QuickFinds",
+  "description": "An extension that helps you find your keyword searches on Google much faster.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  }
+}
